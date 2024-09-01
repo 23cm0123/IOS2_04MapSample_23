@@ -14,6 +14,7 @@
 		7B37DADA2BE0AE4500612A7A /* IOS2_04MapSample_23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B37DAD92BE0AE4500612A7A /* IOS2_04MapSample_23Tests.swift */; };
 		7B37DAE42BE0AE4500612A7A /* IOS2_04MapSample_23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B37DAE32BE0AE4500612A7A /* IOS2_04MapSample_23UITests.swift */; };
 		7B37DAE62BE0AE4500612A7A /* IOS2_04MapSample_23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B37DAE52BE0AE4500612A7A /* IOS2_04MapSample_23UITestsLaunchTests.swift */; };
+		7B37DB2B2BE9EC8700612A7A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B37DB2A2BE9EC8700612A7A /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7B37DADF2BE0AE4500612A7A /* IOS2_04MapSample_23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS2_04MapSample_23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B37DAE32BE0AE4500612A7A /* IOS2_04MapSample_23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS2_04MapSample_23UITests.swift; sourceTree = "<group>"; };
 		7B37DAE52BE0AE4500612A7A /* IOS2_04MapSample_23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS2_04MapSample_23UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B37DB2A2BE9EC8700612A7A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				7B37DAC82BE0AE4400612A7A /* IOS2_04MapSample_23App.swift */,
 				7B37DACA2BE0AE4400612A7A /* ContentView.swift */,
+				7B37DB2A2BE9EC8700612A7A /* LocationManager.swift */,
 				7B37DACC2BE0AE4500612A7A /* Assets.xcassets */,
 				7B37DACE2BE0AE4500612A7A /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				7B37DACB2BE0AE4400612A7A /* ContentView.swift in Sources */,
 				7B37DAC92BE0AE4400612A7A /* IOS2_04MapSample_23App.swift in Sources */,
+				7B37DB2B2BE9EC8700612A7A /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +429,13 @@
 				DEVELOPMENT_TEAM = 3LBJMXTAZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在地を表示するために使います";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +460,13 @@
 				DEVELOPMENT_TEAM = 3LBJMXTAZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在地を表示するために使います";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
